@@ -1,0 +1,173 @@
+[
+  {
+    "archivo": "ejemplos/vivienda_01.dxf",
+    "ancho_m": 12.6,
+    "fondo_m": 8.18,
+    "superficie_construida_m2": 103.02,
+    "puntaje": -6.97,
+    "ambientes": [
+      {
+        "tipo": "COCINA",
+        "ancho": 4.75,
+        "fondo": 3.65,
+        "area_util_m2": 16.53
+      },
+      {
+        "tipo": "ESTAR-COMEDOR",
+        "ancho": 7.65,
+        "fondo": 3.65,
+        "area_util_m2": 26.8
+      },
+      {
+        "tipo": "PASILLO",
+        "ancho": 12.4,
+        "fondo": 1.0,
+        "area_util_m2": 11.07
+      },
+      {
+        "tipo": "DORMITORIO PRINCIPAL",
+        "ancho": 3.2,
+        "fondo": 3.32,
+        "area_util_m2": 10.0
+      },
+      {
+        "tipo": "BAÑO",
+        "ancho": 1.8,
+        "fondo": 3.32,
+        "area_util_m2": 5.48
+      },
+      {
+        "tipo": "DORMITORIO",
+        "ancho": 2.8,
+        "fondo": 3.32,
+        "area_util_m2": 8.71
+      },
+      {
+        "tipo": "DORMITORIO",
+        "ancho": 2.8,
+        "fondo": 3.32,
+        "area_util_m2": 8.71
+      },
+      {
+        "tipo": "BAÑO",
+        "ancho": 1.8,
+        "fondo": 3.32,
+        "area_util_m2": 5.48
+      }
+    ]
+  },
+  {
+    "archivo": "ejemplos/vivienda_02.dxf",
+    "ancho_m": 12.6,
+    "fondo_m": 8.23,
+    "superficie_construida_m2": 103.69,
+    "puntaje": -7.81,
+    "ambientes": [
+      {
+        "tipo": "ESTAR-COMEDOR",
+        "ancho": 7.77,
+        "fondo": 3.61,
+        "area_util_m2": 26.94
+      },
+      {
+        "tipo": "COCINA",
+        "ancho": 4.63,
+        "fondo": 3.61,
+        "area_util_m2": 15.88
+      },
+      {
+        "tipo": "PASILLO",
+        "ancho": 12.4,
+        "fondo": 1.0,
+        "area_util_m2": 11.07
+      },
+      {
+        "tipo": "DORMITORIO",
+        "ancho": 2.8,
+        "fondo": 3.42,
+        "area_util_m2": 8.96
+      },
+      {
+        "tipo": "DORMITORIO",
+        "ancho": 2.8,
+        "fondo": 3.42,
+        "area_util_m2": 8.96
+      },
+      {
+        "tipo": "BAÑO",
+        "ancho": 1.8,
+        "fondo": 3.42,
+        "area_util_m2": 5.64
+      },
+      {
+        "tipo": "BAÑO",
+        "ancho": 1.8,
+        "fondo": 3.42,
+        "area_util_m2": 5.64
+      },
+      {
+        "tipo": "DORMITORIO PRINCIPAL",
+        "ancho": 3.2,
+        "fondo": 3.42,
+        "area_util_m2": 10.29
+      }
+    ]
+  },
+  {
+    "archivo": "ejemplos/vivienda_03.dxf",
+    "ancho_m": 12.6,
+    "fondo_m": 8.43,
+    "superficie_construida_m2": 106.17,
+    "puntaje": -8.16,
+    "ambientes": [
+      {
+        "tipo": "ESTAR-COMEDOR",
+        "ancho": 7.34,
+        "fondo": 3.85,
+        "area_util_m2": 27.16
+      },
+      {
+        "tipo": "COCINA",
+        "ancho": 5.06,
+        "fondo": 3.85,
+        "area_util_m2": 18.59
+      },
+      {
+        "tipo": "PASILLO",
+        "ancho": 12.4,
+        "fondo": 1.0,
+        "area_util_m2": 11.07
+      },
+      {
+        "tipo": "DORMITORIO PRINCIPAL",
+        "ancho": 3.2,
+        "fondo": 3.38,
+        "area_util_m2": 10.16
+      },
+      {
+        "tipo": "BAÑO",
+        "ancho": 1.8,
+        "fondo": 3.38,
+        "area_util_m2": 5.57
+      },
+      {
+        "tipo": "DORMITORIO",
+        "ancho": 2.8,
+        "fondo": 3.38,
+        "area_util_m2": 8.85
+      },
+      {
+        "tipo": "DORMITORIO",
+        "ancho": 2.8,
+        "fondo": 3.38,
+        "area_util_m2": 8.85
+      },
+      {
+        "tipo": "BAÑO",
+        "ancho": 1.8,
+        "fondo": 3.38,
+        "area_util_m2": 5.57
+      }
+    ]
+  }
+]

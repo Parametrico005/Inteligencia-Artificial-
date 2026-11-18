@@ -1,0 +1,47 @@
+[
+  {
+    "archivo": "ejemplos/2d1b/vivienda_01.dxf",
+    "ancho_m": 8.0,
+    "fondo_m": 8.41,
+    "superficie_construida_m2": 67.27,
+    "puntaje": -4.36,
+    "ambientes": [
+      {
+        "tipo": "COCINA",
+        "ancho": 3.23,
+        "fondo": 3.9,
+        "area_util_m2": 11.88
+      },
+      {
+        "tipo": "ESTAR-COMEDOR",
+        "ancho": 4.57,
+        "fondo": 3.9,
+        "area_util_m2": 16.98
+      },
+      {
+        "tipo": "PASILLO",
+        "ancho": 7.8,
+        "fondo": 1.0,
+        "area_util_m2": 6.93
+      },
+      {
+        "tipo": "BAÑO",
+        "ancho": 1.8,
+        "fondo": 3.31,
+        "area_util_m2": 5.46
+      },
+      {
+        "tipo": "DORMITORIO",
+        "ancho": 2.8,
+        "fondo": 3.31,
+        "area_util_m2": 8.67
+      },
+      {
+        "tipo": "DORMITORIO PRINCIPAL",
+        "ancho": 3.2,
+        "fondo": 3.31,
+        "area_util_m2": 9.96
+      }
+    ]
+  }
+]
