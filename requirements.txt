@@ -1,2 +1,4 @@
 ezdxf>=1.3
 matplotlib
+shapely>=2
+numpy

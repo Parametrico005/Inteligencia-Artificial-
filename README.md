@@ -31,7 +31,28 @@ baño 1.80 m, cocina 2.60 m, estar 3.60 m, pasillo 1.00 m. Muros exteriores de
 > Son anteproyectos. Siempre hay que verificarlos con la normativa local y
 > que los revise un profesional.
 
-## 2. Preparar tus planos para entrenar IA
+## 2. Buscar plantas reales en el dataset ResPlan (17.000 viviendas)
+
+[ResPlan](https://github.com/m-agour/ResPlan) es un dataset de 17.000
+plantas de vivienda reales en formato vectorial, con licencia CC BY 4.0
+(hay que citar a la fuente si se publica).
+
+```bash
+bash descargar_resplan.sh          # una sola vez: ~100 MB, o 260 MB descomprimido
+python resplan_a_dxf.py --dormitorios 3 --banos 2 --area-min 90 --area-max 110 --cantidad 5
+python resplan_a_dxf.py --dormitorios 2 --banos 1 --con cochera jardin
+python resplan_a_dxf.py --catalogo  # CSV con las 17.000 plantas para filtrar en Excel
+python resplan_a_dxf.py --id 7947 12115   # exportar plantas concretas
+```
+
+Cada plano se exporta a DXF en metros, con una capa por tipo de ambiente
+(`A-DORMITORIOS`, `A-BANOS`, `A-COCINA`...) además de `MUROS`, `PUERTAS`,
+`VENTANAS` y `TEXTOS`, y con la superficie de cada ambiente. El catálogo
+completo está en `ejemplos/resplan/catalogo.csv`.
+
+Nota: en ResPlan el número de "baños" incluye los toilettes.
+
+## 3. Preparar tus planos para entrenar IA
 
 ```bash
 python preparar_dataset.py --entrada mis_planos/ --salida dataset/
