@@ -69,3 +69,13 @@ que es gratuito. La otra opción es exportarlos a DXF desde AutoCAD.
 
 El siguiente paso es entrenar el modelo generativo con este dataset en una
 máquina con GPU (Colab, Kaggle o Google Cloud).
+
+## Skill de Claude: ver videos de YouTube
+
+En `.claude/skills/ver-youtube/` hay una skill para Claude Code que obtiene
+metadatos, transcripción con marcas de tiempo y fotogramas de un video de
+YouTube para resumirlo o analizarlo. Requiere `yt-dlp` y `ffmpeg`.
+
+```bash
+python3 .claude/skills/ver-youtube/scripts/ver_youtube.py "https://youtu.be/ID" --salida yt --fotogramas 30
+```
